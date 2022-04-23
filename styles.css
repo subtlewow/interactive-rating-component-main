@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.bg-container {
+    background-color: hsl(213, 19%, 18%);
+}
+
+.text-main {
+    color: hsl(217, 12%, 63%);
+}
+
+.bg-main {
+    background-color: #444f61;
+    color: hsl(216, 12%, 54%);
+    font-weight: bold;
+}
+
+.bg-main:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.submit {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.submit-text {
+    color: hsl(25, 97%, 53%);
+}
+
+.font-base {
+    font-size: 0.9rem; 
+    line-height: 1.5rem; 
+}
+
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+[type=radio] + label {
+    cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + label {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+input[type='radio']:focus {
+    outline: none;   
+}
+
+
+/* frontend mentor */
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}

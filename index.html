@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor</title>
+  <script src="https://cdn.tailwindcss.com"></script> <!-- tailwindcss cdn-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="flex justify-center items-center h-screen">
+    <div id='main-div' class="w-11/12 sm:w-1/2 lg:w-1/3 xl:w-1/4 2xl:w-1/5 h-96 bg-container p-8 rounded-2xl">
+      <img id='star-svg' src="images/icon-star.svg" alt="star" class="bg-gray-700 p-2 mb-7 rounded-full">
+      
+      <h1 id='title' class="text-2xl font-bold text-white mt-5 mb-3">How did we do?</h1>
+  
+      <span id='passage' class="text-main font-base mb-3 block">
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </span>
+      
+      <form class="flex justify-between my-8 rating" id="rating-form">
+        <input type='radio' id="star1" name="rating" value="1">
+          <label for="star1" class="bg-main rounded-full w-12 p-3 text-center hover:bg-main-hover">1</label>
+        </input>
+        <input type='radio' id="star2" name="rating" value="2">
+          <label for="star2" class="bg-main rounded-full w-12 p-3 text-center ">2</label>
+        </input>
+        <input type='radio' id="star3" name="rating" value="3">
+          <label for="star3" class="bg-main rounded-full w-12 p-3 text-center ">3</label>
+        </input>
+        <input type='radio' id="star4" name="rating" value="4">
+          <label for="star4" class="bg-main rounded-full w-12 p-3 text-center ">4</label>
+        </input>
+        <input type='radio' id="star5" name="rating" value="5">
+          <label for="star5" class="bg-main rounded-full w-12 p-3 text-center ">5</label>
+        </input>
+
+      </form>
+      
+      <input type='submit' id='btn' class="rounded-3xl bg-orange-500 p-2.5 text-white w-full text-center hover:text-amber-500 hover:bg-white font-bold" value="SUBMIT"></input>
+      <script src="index.js"></script>
+    </div>
+  </div>
+  
+  <div class="attribution text-white">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Marlon Chhour</a>.
+  </div>
+</body>
+</html>
